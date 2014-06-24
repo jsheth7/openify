@@ -1,0 +1,7 @@
+parameters:
+  pushover_user: user
+  pushover_token: token
+
+  database_name: name
+
+  keywords_ars: [chrome, firefox, openssl]
