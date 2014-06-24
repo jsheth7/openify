@@ -9,7 +9,7 @@ It was put together rather quickly, over the course of a few rushed weekend hour
 
 ### What does it do?
 
-* Parses the page news from the OpenSSL project, and extracts security advisories
+* Parses the news page from the OpenSSL project, and extracts security advisories
 * Parses the security feed from ArsTechnica, and extracts articles
 * Saves these news items to the "links" collection in MongoDB
 
@@ -24,7 +24,7 @@ It was put together rather quickly, over the course of a few rushed weekend hour
 * Add additional input sources (the openssl git log's RSS feed would be cool)
 * Part of the code for Pushover notifications is written - it just needs to be hooked into the right place
 * Allow arbitrary recipients to be defined (via a config file or database entries)
-* Decide whether all of this code should be moved to a framework (Symfony / Silex / Laravel)
+* Decide whether all of this code should be moved to a full framework (Symfony / Silex / Laravel)
 
 ### Design philosophy:
 
